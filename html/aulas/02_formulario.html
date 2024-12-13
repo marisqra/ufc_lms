@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Formulário</title>
+    </head>
+    <body>
+        <h1>Formulários</h1>
+        <form action="https://httpbin.org/post" method="POST">
+            Nome: <br> <input type="text" name="firstname" /> <br /> <br />
+            Sobrenome: <br> <input type="text" name="surname" /> <br /> <br />
+            Senha: <br> <input type="password" name="password" /> <br /> <br />
+            Universidade: <br>
+            <input type="radio" name="university" value="ufc"/> UFC
+            <input type="radio" name="university" value="ifcr"/> IFCE
+            <input type="radio" name="university" value="uece"/> UECE <br /> <br />
+            Área de interesse: <br />
+            <input type="checkbox" name="ai" value="des" /> Desenho
+            <input type="checkbox" name="ai" value="type" /> Tipografia
+            <input type="checkbox" name="ai" value="prg" /> Programação
+            <input type="checkbox" name="ai" value="his" /> História <br /> <br />
+
+            <input type="hidden" name="code" value="223343" />
+
+            <input type="submit" value="Enviar" /> 
+        </form>
+    </body>
+</html>

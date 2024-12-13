@@ -1,0 +1,10 @@
+p.escondido {
+    display: none;
+    background-color: azure;
+    font-weight: bold;
+    font-size: larger;
+}
+
+div.mostrar_dica:hover p.escondido {
+    display: block;
+}
