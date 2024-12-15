@@ -1,0 +1,97 @@
+header {
+    background-color: cadetblue;
+    text-align: center;
+    padding: 10px;
+}   
+
+main {
+    display: flex;
+}
+
+.nav-left {
+    background-color: aliceblue;
+    width: 200px;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-inline: 5px;
+    border-right: 2px solid gainsboro;
+}
+
+.button {
+    background-color: transparent;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: none;
+    padding: 6px;
+    margin-bottom: 10px;
+    width: 200px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.button:hover {
+    background-color: cadetblue;
+    color: white;
+}
+
+.container {
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: aliceblue;
+}
+
+h1 {
+    color: cadetblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.farm-card {
+    border: 2px groove gainsboro;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    height: 255px;
+    width: 170px;
+    margin: 20px;
+    box-shadow: 14px 15px 11px -8px rgba(0, 0, 0, 0.1);
+}
+
+.card-details {
+    padding: 8px
+}
+
+.image {
+    background-color: white;
+    text-align: center;
+    padding: 8px;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.farm-card:hover{
+    transform: translate(10px, 5px);
+}
+
+h4 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+}
+
+.about {
+    font-size: 15px;
+    text-align: left;
+}
+
+.nav-right {
+    background-color: aliceblue;
+    width: 200px;   
+    flex-direction: column;
+    padding-top: 10px;
+    padding-inline: 5px;
+    border-left: 2px solid gainsboro;
+}
