@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sticky site</title>
+    <style>
+        .header {
+            position: fixed;
+            width: 100%;
+            height: 50px;
+            padding-top: 25px;
+            text-align: center;
+            background-color: cadetblue;
+        }
+
+        .container {
+            text-align: center;
+            background-color: aliceblue;
+            padding: 100px;
+        }
+
+        .image-absolute {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 100px;
+        }
+
+        .button-relative {
+            position: relative;
+            margin-left: 20px;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: aliceblue;
+            border: 1px solid cadetblue;
+            border-radius: 8px;
+        }
+        
+        .sticky-section {
+            height: 600px;
+            padding: 20px;
+        }
+
+        .text-sticky {
+            position: sticky;
+            top: 0;
+            padding: 10px;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">Cabeçalho Fixo</div>
+    <div class="container">
+        <p>Conteúdo principal aqui.</p>
+        <img class="image-absolute" src="https://via.placeholder.com/100" alt="Imagem Exemplo">
+    </div>
+    <button class="button-relative">Botão Relativo</button>
+    <div class="sticky-section">
+        <p class="text-sticky">Texto Sticky</p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec ex massa. Integer sed vulputate
+            odio, et dapibus nisl. Donec molestie luctus metus, sit amet ultricies lorem tincidunt quis. Cras sagittis
+            enim eu massa vulputate, vitae facilisis nulla posuere. Cras et magna at nisi feugiat dapibus a in risus.
+            Pellentesque efficitur placerat augue eu ullamcorper. Sed a lacus purus. Proin auctor turpis sit amet diam
+            euismod vulputate. Aliquam erat volutpat.
+
+            Aliquam efficitur maximus diam, eget facilisis orci eleifend sit amet. Pellentesque vulputate velit at
+            libero ultricies facilisis. Integer elementum, odio eget iaculis bibendum, libero lorem venenatis ligula,
+            sit amet aliquam enim nisi sed leo. Quisque augue leo, commodo a vestibulum ut, vestibulum eu lacus. Ut a
+            imperdiet est. Cras lobortis nulla ut turpis sollicitudin volutpat. Vestibulum est nibh, facilisis quis
+            tortor non, sollicitudin lobortis felis. Nulla auctor molestie pharetra. Nunc eget vestibulum purus. Fusce
+            mattis quam est, at dignissim sapien vehicula nec.
+
+            Donec imperdiet ipsum eget neque maximus consequat. Maecenas hendrerit tortor nec turpis condimentum, eget
+            sagittis lorem eleifend. Nam vulputate dui et lorem viverra vulputate. Sed sed lobortis mi, vel iaculis est.
+            Nulla aliquet ipsum ut pellentesque tincidunt. Suspendisse quis egestas lacus. Nulla non diam non augue
+            tristique sodales. Curabitur at efficitur dui, eget rhoncus ante. Curabitur nec lectus id dui maximus
+            viverra quis at turpis. In pretium at turpis quis aliquet. Ut congue faucibus pellentesque. Quisque lobortis
+            nec dolor et convallis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean imperdiet velit
+            sed magna rhoncus semper.
+
+            Ut molestie suscipit augue, vel lobortis nunc mattis vel. Morbi sem dolor, imperdiet in eros sit amet,
+            bibendum commodo mauris. Maecenas sit amet elit vulputate, fermentum purus at, fermentum tortor. Fusce diam
+            tellus, lobortis ut gravida nec, blandit in massa. Nullam vitae accumsan velit. Praesent id diam a purus
+            sagittis congue maximus a neque. Curabitur porta porta ipsum, scelerisque placerat quam varius vel. Nulla
+            facilisi. Donec consequat dolor eu orci euismod tristique. Maecenas commodo, quam non hendrerit laoreet,
+            tellus ante auctor mi, eu vulputate odio elit id tortor. Nulla convallis orci a dui condimentum imperdiet.
+            Donec nec urna ex. Ut molestie vehicula eros sed sagittis. Etiam leo lacus, fermentum id nulla consectetur,
+            auctor eleifend sem. Mauris interdum, elit non lobortis consectetur, dui turpis vestibulum lacus, quis
+            malesuada odio sem sit amet magna. In est libero, tristique et pellentesque vitae, interdum ac arcu.
+
+            Nullam dapibus eget nunc nec efficitur. Etiam vulputate, eros et tincidunt pellentesque, turpis diam rutrum
+            dui, vitae consectetur lectus magna eu elit. Sed ornare sapien quis tincidunt egestas. Sed laoreet volutpat
+            dapibus. Duis non arcu varius metus malesuada dapibus. Cras volutpat lacus at eros volutpat, et ultrices
+            dolor pharetra. Nunc viverra dolor et arcu lobortis, nec venenatis nisl suscipit.</p>
+    </div>
+</body>
+
+</html>

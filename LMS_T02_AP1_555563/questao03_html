@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Botão</title>
+    <style>
+        .btn-animado {
+            background-color: transparent;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            border: 2px groove gainsboro;
+            border-radius: 8px;
+            padding: 6px;
+            width: 100px;
+            margin-left: 50px;
+            margin-top: 50px;
+        }
+
+        .btn-animado:hover {
+            background-color: lightgreen;
+            color: white;
+            font-weight: bolder;
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+
+<body>
+    <button class="btn-animado">Sobre</button>
+
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fuxico Notícias</title>
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Portal Fuxico</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+
+            <h1>Notícias Recentes</h1>
+
+            <article>
+                <h2>Doechii lança novo Álbum</h2>
+                <img src="https://via.placeholder.com/150" alt="placeholder">
+                <p>A estrela em ascensão Doechii, em sua nova mixtape de hip-hop/rap *Alligator Bites Never Heal*,
+                    captura um talento raro em sua forma mais autêntica até agora, oferecendo aos ouvintes 19 janelas
+                    distintas para sua arte única. </p>
+            </article>
+
+            <article>
+                <h2>Sabrina Carpenter no Grammy</h2>
+                <img src="https://via.placeholder.com/150" alt="placeholder">
+                <p>Sabrina Carpenter encantou uma audiência de milhões como cantora, compositora, atriz e ícone de
+                    estilo. </p>
+            </article>
+
+        </section>
+
+        <section>
+
+            <h2>Você pode ter perdido:</h2>
+
+            <article>
+                <h3>Top 10 melhores álbuns do ano</h3>
+                <img src="https://via.placeholder.com/150" alt="placeholder">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec felis lacus, maximus ut turpis eu,
+                    sollicitudin auctor urna. Duis eget pretium est. Praesent risus nunc, tincidunt sed justo id,
+                    pretium auctor tortor. Ut lacinia, eros vehicula vehicula posuere, mauris justo lobortis tortor, sit
+                    amet bibendum urna leo ut ex.</p>
+            </article>
+
+            <article>
+                <h3>Quem é a Chappel Roan</h3>
+                <img src="https://via.placeholder.com/150" alt="placeholder">
+                <p>Donec tincidunt finibus metus id suscipit. Aenean ultricies imperdiet diam, et dapibus urna
+                    vestibulum sed. Mauris vitae neque congue, malesuada justo tincidunt, tempus elit.</p>
+            </article>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy 2024 Portal Fuxico</p>
+
+        <p>
+            <a href="instagram">Instagram</a> |
+            <a href="twitter">Twitter</a> |
+            <a href="tumblr" target="_blank">Tumblr</a>
+        </p>
+    </footer>
+</body>
+
+</html>
